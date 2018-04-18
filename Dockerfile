@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y \
         libxslt-dev \
         zlib1g-dev \
         libssl-dev \
+        libpng-dev \
         curl \
         git \
     && apt-get autoremove -y \
